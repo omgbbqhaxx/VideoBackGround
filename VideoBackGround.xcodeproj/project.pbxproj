@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		73D68BC84A3BE1383F692933 /* Pods_VideoBackGround.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F600FB2097C323D4F77848CF /* Pods_VideoBackGround.framework */; };
 		AD225BF81D26C4A6000E1E14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD225BF71D26C4A6000E1E14 /* AppDelegate.swift */; };
 		AD225BFA1D26C4A6000E1E14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD225BF91D26C4A6000E1E14 /* ViewController.swift */; };
 		AD225BFD1D26C4A6000E1E14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD225BFB1D26C4A6000E1E14 /* Main.storyboard */; };
 		AD225C001D26C4A6000E1E14 /* VideoBackGround.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AD225BFE1D26C4A6000E1E14 /* VideoBackGround.xcdatamodeld */; };
 		AD225C021D26C4A6000E1E14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD225C011D26C4A6000E1E14 /* Assets.xcassets */; };
 		AD225C051D26C4A6000E1E14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD225C031D26C4A6000E1E14 /* LaunchScreen.storyboard */; };
+		AD225C0F1D26C4B3000E1E14 /* VideoCutter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD225C0D1D26C4B3000E1E14 /* VideoCutter.swift */; };
+		AD225C101D26C4B3000E1E14 /* VideoSplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD225C0E1D26C4B3000E1E14 /* VideoSplashViewController.swift */; };
+		AD225C121D26C4C1000E1E14 /* fsc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD225C111D26C4C1000E1E14 /* fsc.jpg */; };
+		AD225C141D26C549000E1E14 /* maldivepoor.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AD225C131D26C4E6000E1E14 /* maldivepoor.mp4 */; };
+		AD225C161D26C56E000E1E14 /* Museo500-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = AD225C151D26C564000E1E14 /* Museo500-Regular.otf */; };
+		AD225C181D26C8B5000E1E14 /* hoom-small-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = AD225C171D26C8B5000E1E14 /* hoom-small-logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E8AC305993D4AC82330E1DD /* Pods-VideoBackGround.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoBackGround.release.xcconfig"; path = "Pods/Target Support Files/Pods-VideoBackGround/Pods-VideoBackGround.release.xcconfig"; sourceTree = "<group>"; };
 		AD225BF41D26C4A6000E1E14 /* VideoBackGround.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoBackGround.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD225BF71D26C4A6000E1E14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD225BF91D26C4A6000E1E14 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +32,14 @@
 		AD225C011D26C4A6000E1E14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD225C041D26C4A6000E1E14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD225C061D26C4A6000E1E14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD225C0D1D26C4B3000E1E14 /* VideoCutter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCutter.swift; sourceTree = "<group>"; };
+		AD225C0E1D26C4B3000E1E14 /* VideoSplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoSplashViewController.swift; sourceTree = "<group>"; };
+		AD225C111D26C4C1000E1E14 /* fsc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fsc.jpg; sourceTree = "<group>"; };
+		AD225C131D26C4E6000E1E14 /* maldivepoor.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = maldivepoor.mp4; sourceTree = "<group>"; };
+		AD225C151D26C564000E1E14 /* Museo500-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Museo500-Regular.otf"; sourceTree = "<group>"; };
+		AD225C171D26C8B5000E1E14 /* hoom-small-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hoom-small-logo.png"; sourceTree = "<group>"; };
+		C6F14720AAAC253E719A176B /* Pods-VideoBackGround.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoBackGround.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VideoBackGround/Pods-VideoBackGround.debug.xcconfig"; sourceTree = "<group>"; };
+		F600FB2097C323D4F77848CF /* Pods_VideoBackGround.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VideoBackGround.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73D68BC84A3BE1383F692933 /* Pods_VideoBackGround.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9587E348F98E5CEA94E2358E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C6F14720AAAC253E719A176B /* Pods-VideoBackGround.debug.xcconfig */,
+				9E8AC305993D4AC82330E1DD /* Pods-VideoBackGround.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		963DF1AE57E2105C41C5EAAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F600FB2097C323D4F77848CF /* Pods_VideoBackGround.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AD225BEB1D26C4A6000E1E14 = {
 			isa = PBXGroup;
 			children = (
 				AD225BF61D26C4A6000E1E14 /* VideoBackGround */,
 				AD225BF51D26C4A6000E1E14 /* Products */,
+				9587E348F98E5CEA94E2358E /* Pods */,
+				963DF1AE57E2105C41C5EAAD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +92,7 @@
 		AD225BF61D26C4A6000E1E14 /* VideoBackGround */ = {
 			isa = PBXGroup;
 			children = (
+				AD225C0C1D26C4B3000E1E14 /* Source */,
 				AD225BF71D26C4A6000E1E14 /* AppDelegate.swift */,
 				AD225BF91D26C4A6000E1E14 /* ViewController.swift */,
 				AD225BFB1D26C4A6000E1E14 /* Main.storyboard */,
@@ -67,6 +104,19 @@
 			path = VideoBackGround;
 			sourceTree = "<group>";
 		};
+		AD225C0C1D26C4B3000E1E14 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				AD225C111D26C4C1000E1E14 /* fsc.jpg */,
+				AD225C151D26C564000E1E14 /* Museo500-Regular.otf */,
+				AD225C171D26C8B5000E1E14 /* hoom-small-logo.png */,
+				AD225C131D26C4E6000E1E14 /* maldivepoor.mp4 */,
+				AD225C0D1D26C4B3000E1E14 /* VideoCutter.swift */,
+				AD225C0E1D26C4B3000E1E14 /* VideoSplashViewController.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +124,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD225C091D26C4A6000E1E14 /* Build configuration list for PBXNativeTarget "VideoBackGround" */;
 			buildPhases = (
+				E96279ADFF00A52760F7F249 /* [CP] Check Pods Manifest.lock */,
 				AD225BF01D26C4A6000E1E14 /* Sources */,
 				AD225BF11D26C4A6000E1E14 /* Frameworks */,
 				AD225BF21D26C4A6000E1E14 /* Resources */,
+				B155E70550E9386D78FCCA87 /* [CP] Embed Pods Frameworks */,
+				1DEEC225B7558113A2013D2F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,13 +178,65 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD225C181D26C8B5000E1E14 /* hoom-small-logo.png in Resources */,
+				AD225C161D26C56E000E1E14 /* Museo500-Regular.otf in Resources */,
+				AD225C141D26C549000E1E14 /* maldivepoor.mp4 in Resources */,
 				AD225C051D26C4A6000E1E14 /* LaunchScreen.storyboard in Resources */,
 				AD225C021D26C4A6000E1E14 /* Assets.xcassets in Resources */,
+				AD225C121D26C4C1000E1E14 /* fsc.jpg in Resources */,
 				AD225BFD1D26C4A6000E1E14 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1DEEC225B7558113A2013D2F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VideoBackGround/Pods-VideoBackGround-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B155E70550E9386D78FCCA87 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VideoBackGround/Pods-VideoBackGround-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E96279ADFF00A52760F7F249 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AD225BF01D26C4A6000E1E14 /* Sources */ = {
@@ -140,6 +245,8 @@
 			files = (
 				AD225C001D26C4A6000E1E14 /* VideoBackGround.xcdatamodeld in Sources */,
 				AD225BFA1D26C4A6000E1E14 /* ViewController.swift in Sources */,
+				AD225C0F1D26C4B3000E1E14 /* VideoCutter.swift in Sources */,
+				AD225C101D26C4B3000E1E14 /* VideoSplashViewController.swift in Sources */,
 				AD225BF81D26C4A6000E1E14 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,6 +358,7 @@
 		};
 		AD225C0A1D26C4A6000E1E14 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6F14720AAAC253E719A176B /* Pods-VideoBackGround.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = VideoBackGround/Info.plist;
@@ -262,6 +370,7 @@
 		};
 		AD225C0B1D26C4A6000E1E14 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E8AC305993D4AC82330E1DD /* Pods-VideoBackGround.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = VideoBackGround/Info.plist;
@@ -290,6 +399,7 @@
 				AD225C0B1D26C4A6000E1E14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
